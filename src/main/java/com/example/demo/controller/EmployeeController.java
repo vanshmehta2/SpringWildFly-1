@@ -21,6 +21,7 @@ public class EmployeeController {
 	@GetMapping
 	public String getdata(){
 		System.out.println("Hello world");
+		System.out.println("Hello TNS");
 		System.out.println("yes !! it is working");
 		System.out.println("Testing successful");
 		logger.info("save data request for new employee: id:"+ new Date());
